@@ -1,0 +1,21 @@
+{
+  "name": "porfolio-v2-backend",
+  "version": "1.0.0",
+  "description": "Backend for Jabez Sanjay portfolio",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jabez Sanjay B",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.8",
+    "nodemailer": "^6.6.5",
+    "nodemon": "^2.0.13"
+  }
+}
